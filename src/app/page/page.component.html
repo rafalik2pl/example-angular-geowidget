@@ -1,0 +1,10 @@
+<p>page works!</p>
+<div style="width: 1000px; height: 1000px;">
+  <lib-inpost-geowidget-angular
+    [token]="token"
+    [id]="identifier"
+    [language]="language"
+    (pointSelect)="pointSelect($event)"
+    (apiReady)="apiReady($event)">
+  </lib-inpost-geowidget-angular>
+</div>
